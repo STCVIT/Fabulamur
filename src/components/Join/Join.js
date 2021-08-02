@@ -16,8 +16,9 @@ export default function Join({ isPublic, create }) {
     var url;
     if (isPublic) {
       url = window.location.href;
+    } else {
+      url = window.location.host;
     }
-    url = window.location.host;
     socket.emit("joinPrivateRoom", { url, name, code });
     dispatch({
       type: "SET_DETAILS",

@@ -27,7 +27,7 @@ const PopUp = () => {
     <ModalContext.Consumer>
       {({ windowPosition, hasDraggedWindowPosition }) => (
         <Draggable
-          handle=".modalHeader"
+          handle="#modal"
           defaultPosition={{ x: windowPosition.x, y: windowPosition.y }}
           position={
             hasDraggedWindowPosition

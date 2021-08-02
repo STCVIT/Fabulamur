@@ -33,7 +33,7 @@
 
 Setting up the project
 
-- Make your way onto <a>https://drive.google.com/drive/folders/1isDQI1vJqv-u6zG3AJhi4J_llew8R-hZ?usp=sharing<a>
+- Make your way onto <a>https://drive.google.com/drive/folders/1cCr2x5I-68DYe7Nb1Mq9OpxD9HskkIFu?usp=sharing<a>
 - Download the folder onto your computer
 - Go to your file location and extract it
 
@@ -46,7 +46,10 @@ Adding the extension to chrome
 - Now you have your extensioin added onto your chrome
 - When you want to use the extension you can click on the chrome chat extension in the top right of chrome to bring the chat popup
 
-Note: If you are running the extension for the first time please refresh the page you want to use it on before running the extension
+Note:
+
+- If you are running the extension for the first time please refresh the page you want to use it on before running the extension
+- If at any point the extension stops working, try refreshing the page.
 
 ## Contributors
 
