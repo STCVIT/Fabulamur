@@ -8,15 +8,15 @@
 
 ---
 
-## Built With
-
-[![Built With](./techStack.png)]
-
 ## Images
 
 <img src="./FabulamurLogo.jpeg" width='300' height="300"/> 
 <br/>
 <img src="./FabulamurImages.jpeg" width='300' height="300"/>
+
+## Built With
+
+[![Built With](./techStack.png)]
 
 ## Features
 
