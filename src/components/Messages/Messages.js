@@ -207,7 +207,7 @@ const Messages = ({ messages, name }) => {
                         <div>
                           <a
                             className="messageText colorWhite"
-                            href={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                            href={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                             target="blank"
                           >
                             File
@@ -247,7 +247,7 @@ const Messages = ({ messages, name }) => {
                       <p className="messageText colorWhite">
                         <img
                           className="sentImage"
-                          src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                          src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                           alt="image"
                         />
                       </p>
@@ -292,7 +292,7 @@ const Messages = ({ messages, name }) => {
                     <div className="messageBox backgroundBlue  right-top">
                       <div className="repliedMessage">
                         <img
-                          src={`https://flabumar.herokuapp.com/${data.messages[0].repliedMessage}`}
+                          src={`https://fabulamur.herokuapp.com/${data.messages[0].repliedMessage}`}
                           className="sentSticker"
                         />
                       </div>
@@ -326,7 +326,7 @@ const Messages = ({ messages, name }) => {
                         <p className="messageText colorWhite">
                           <img
                             className="sentSticker"
-                            src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                            src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                             alt="image"
                             style={{ objectFit: "cover" }}
                           />
@@ -350,7 +350,7 @@ const Messages = ({ messages, name }) => {
                       <p className="messageText colorWhite">
                         <video width="200" height="120" controls>
                           <source
-                            src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                            src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                             type="video/mp4"
                           />
                         </video>
@@ -451,7 +451,7 @@ const Messages = ({ messages, name }) => {
                       </div>
                       <div>
                         <a
-                          href={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                          href={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                           target="blank"
                           className="messageText colorWhite"
                         >
@@ -493,7 +493,7 @@ const Messages = ({ messages, name }) => {
                   <p className="messageText colorWhite flex">
                     <img
                       className="sentImage"
-                      src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                      src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                       alt="image"
                     />
                     <div className="replyIconDiv">
@@ -535,7 +535,7 @@ const Messages = ({ messages, name }) => {
                     <p className="messageText colorWhite flex">
                       <img
                         className="sentImage"
-                        src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                        src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                         alt="image"
                       />
                       <div className="replyIconDiv">
@@ -574,7 +574,7 @@ const Messages = ({ messages, name }) => {
                     <p className="messageText colorWhite">
                       <video width="200" height="120" controls>
                         <source
-                          src={`https://flabumar.herokuapp.com/${data.messages[0].message}`}
+                          src={`https://fabulamur.herokuapp.com/${data.messages[0].message}`}
                           type="video/mp4"
                         />
                       </video>

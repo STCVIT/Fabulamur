@@ -53,7 +53,7 @@ const Input = () => {
     formData.append("roomcode", roomCode);
     formData.append("url", url);
     formData.append("id", id);
-    axios.post("https://flabumar.herokuapp.com/upload", formData);
+    axios.post("https://fabulamur.herokuapp.com/upload", formData);
     const type = "image";
     socket.emit("sendMessage", { user, id, message, type });
   };
@@ -97,11 +97,13 @@ const Input = () => {
     setShowStickerDiv(!showStickerDiv);
   };
   useEffect(() => {
-    axios.get("https://flabumar.herokuapp.com/getStickers").then((response) => {
-      response.data.forEach((sticker) => {
-        setGetStickers((prevSticker) => [...prevSticker, sticker]);
+    axios
+      .get("https://fabulamur.herokuapp.com/getStickers")
+      .then((response) => {
+        response.data.forEach((sticker) => {
+          setGetStickers((prevSticker) => [...prevSticker, sticker]);
+        });
       });
-    });
   }, []);
   return (
     <div>
@@ -125,7 +127,7 @@ const Input = () => {
             {messageType == "image" && (
               <div className="replyToInnerDiv">
                 <img
-                  src={`https://flabumar.herokuapp.com/${repliedMessage}`}
+                  src={`https://fabulamur.herokuapp.com/${repliedMessage}`}
                   className="repliedToSticker"
                 />
               </div>
@@ -186,7 +188,7 @@ const Input = () => {
             return (
               <img
                 className="stickerDiv"
-                src={`https://flabumar.herokuapp.com/${sticker}`}
+                src={`https://fabulamur.herokuapp.com/${sticker}`}
                 onClick={() => {
                   sendSticker(sticker);
                 }}
