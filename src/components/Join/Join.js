@@ -16,6 +16,7 @@ export default function Join({ isPublic, create }) {
     var url;
     if (isPublic) {
       url = window.location.href;
+      url = url.substr(0, url.indexOf("?"));
     } else {
       url = window.location.host;
     }
