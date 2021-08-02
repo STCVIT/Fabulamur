@@ -1,0 +1,37 @@
+.infoBar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background: white !important;
+  height: 60px !important;
+  width: 100% !important;
+}
+
+.leftInnerContainer {
+  flex: 0.5 !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 5% !important;
+  color: white !important;
+}
+.leftInnerContainer > h3 {
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  letter-spacing: -0.41px !important;
+  color: #000000 !important;
+}
+.rightInnerContainer {
+  display: flex !important;
+  flex: 0.5 !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  margin-right: 5% !important;
+}
+
+.usersIconDiv {
+  margin-right: 10px !important;
+  height: 25px !important;
+}

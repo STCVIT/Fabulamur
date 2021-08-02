@@ -1,0 +1,41 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  color: white;
+  /* height: 60%; */
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h3 {
+  margin-bottom: 0px;
+}
+
+/* @media screen and (min-hieght: 600px) {
+  body {
+    background-color: olive;
+  }
+} */
+
+/* @media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+} */

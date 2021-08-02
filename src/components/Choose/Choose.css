@@ -1,0 +1,62 @@
+.chooseOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 550px;
+  width: 350px;
+  align-items: center;
+  background-color: white;
+}
+
+.chooseInnerContainer {
+  width: 80%;
+}
+
+.chooseHeading {
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.publicButton,
+.privateButton {
+  color: #fff;
+  text-decoration: none;
+  background: var(--background-color);
+  border-radius: 2px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 250px;
+  height: 50px;
+  margin-top: 15px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.chooseHeading {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #414141;
+}
+
+.publicButton:hover,
+.privateButton:hover {
+  opacity: 0.8;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.joinButton:focus {
+  outline: 0;
+}

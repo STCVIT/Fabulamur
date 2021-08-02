@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding-top: 3px;
+}
+
+.chatInput {
+  margin: 10px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  width: 255px;
+  padding-right: 45px;
+  font-size: 15px;
+  background: #e1e5e3;
+  border-radius: 5px;
+}
+
+.inputIcons {
+  height: 23px;
+}
+
+.sendIcon {
+  background-color: var(--background-color);
+  width: 32px;
+  height: 30px;
+  margin-left: -49px;
+  border-radius: 5px;
+  border: none;
+}
+.sendIconImage {
+  height: 30px;
+  width: 30px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.emojiPickerDiv {
+  position: absolute;
+  transform: translateY(-100%);
+}
+.stickerDiv {
+  width: 80px;
+  height: 80px;
+}
+.stickers {
+  position: absolute;
+  background-color: #e1e5e3;
+  height: 105px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  justify-content: space-evenly;
+}
+.replyToInputDiv {
+  z-index: 3;
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #e1e5e3 !important;
+  height: fit-content;
+}
+.replyToDiv {
+  background-color: var(--background-color);
+}
+.replyToInnerDiv {
+  padding: 10px;
+  background-color: white;
+  width: 71%;
+  margin-left: 90px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.repliedToSticker {
+  height: 100px;
+  width: 100px;
+}

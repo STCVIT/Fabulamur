@@ -1,0 +1,33 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  width: 350px;
+  min-width: 270px;
+  background-color: #0d0d0f;
+  /* height: 100%; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  /* border-radius: 8px; */
+  height: 100%;
+  width: 100%;
+  min-width: 250px;
+}
+
+.ab {
+  background-color: rgba(97, 97, 97, 0.7);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no {
+  display: none;
+}

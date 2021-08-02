@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Chat Extention",
+  "description": "A chat extention that allows you to chat with anyone on the same URL as you",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/Shriram-Sivanandam/chrome_chat-extension",
+  "browser_action": {
+    "default_icon": "favicon.ico",
+    "default_title": "Chrome Chat Extension"
+  },
+  "background": {
+    "scripts": ["./jquery.js", "./background.js"]
+  },
+  "icons": { 
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+   "128": "assets/icon128.png" 
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "all_frames": true,
+    "js": [
+      "./content.js",
+      "./jquery.js"
+    ],
+    "run_at": "document_end"
+  }],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "web_accessible_resources": [
+    "index.html",
+    "/static/*"
+  ]
+}

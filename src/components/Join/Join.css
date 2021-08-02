@@ -1,0 +1,66 @@
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 550px;
+  width: 350px;
+  align-items: center;
+  background-color: white;
+}
+
+.joinInnerContainer {
+  width: 80%;
+}
+
+.joinInput {
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+  padding: 15px 20px;
+  width: 100%;
+  margin-top: 15px;
+}
+.joinInput:focus {
+  border: 2px solid var(--background-color);
+}
+
+.joinHeading {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #414141;
+  border-bottom: 3px solid #414141;
+  padding-bottom: 4px;
+  margin-bottom: 30px;
+}
+
+.joinButton {
+  color: #fff;
+  text-decoration: none;
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.joinButton:hover {
+  opacity: 0.8;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.disableButton {
+  cursor: not-allowed;
+  pointer-events: none;
+}

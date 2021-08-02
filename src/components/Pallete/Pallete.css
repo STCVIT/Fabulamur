@@ -1,0 +1,52 @@
+.palleteDiv {
+	z-index: 3;
+	position: absolute;
+	margin-top: 4px;
+	width: 200px;
+	height: 112px;
+	background-color: white;
+	margin-left: -152px;
+	border-radius: 10px;
+	box-shadow: 14px 18px 12px 6px rgb(204 193 193 / 19%);
+	-webkit-box-shadow: 14px 18px 12px 6px rgb(204 193 193 / 19%);
+	-moz-box-shadow: 14px 18px 12px 6px rgba(204, 193, 193, 0.19);
+}
+.palleteTitle {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 18px;
+	letter-spacing: -0.41px;
+	color: #000000;
+	margin-top: 5px;
+	margin-left: 7px;
+}
+.color {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 7px;
+}
+.circle {
+	width: 14px;
+	height: 14px;
+	border-radius: 10px;
+}
+.peach {
+	background: #fdb99b;
+}
+.darkpeach {
+	background: #e56868;
+}
+.blue {
+	background: #2f80ed;
+}
+.purple {
+	background: #bb6bd9;
+}
+.golden {
+	background: #ffb347;
+}
+.darkGreen {
+	background: #4fb779;
+}

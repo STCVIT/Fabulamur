@@ -1,0 +1,248 @@
+.bg {
+  height: 100%;
+  /* background: url("../../icons/chatbg.png"); */
+  background: var(--background-color);
+  /* overflow-x: hidden; */
+  overflow: auto;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.messageBox {
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-family: "Roboto";
+  position: relative;
+  border-radius: 10px;
+  padding: 5px 5px;
+  display: inline-block;
+  min-width: 20%;
+  max-width: 75%;
+  max-height: 100%;
+  border: none;
+  overflow: hidder;
+  background: #f2f2f2;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.messageText {
+  font-size: 17px;
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  word-wrap: break-word;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: -0.41px;
+  color: #414141 !important;
+  padding-top: 6px;
+  margin-left: 2px;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  /* position: relative; */
+  justify-content: flex-end;
+  padding: 0 2%;
+  margin-top: 3px;
+}
+
+.sentText {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.41px;
+  color: var(--background-color);
+  margin-bottom: 5px;
+}
+.replyIcon {
+  height: 24px;
+  width: 24px;
+  margin-top: 3px;
+  margin-right: 7px;
+}
+.sentReplyIcon {
+  transform: scaleX(-1);
+  height: 24px;
+  width: 24px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.sentImage {
+  border-radius: 10px;
+  height: 100px;
+  width: auto;
+}
+
+.sentSticker {
+  height: 110px;
+  width: 110px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mainMessage {
+  z-index: 4;
+}
+
+/* .top {
+	margin-top: 11px;
+  } */
+
+.stickerBox {
+  /* position: relative; */
+  background: #f2f2f2;
+  border-radius: 6px;
+  padding: 3px 3px;
+  color: white;
+  /* display: inline-block; */
+  max-width: 40%;
+}
+
+.stickerMessage {
+  display: flex;
+  position: relative;
+  padding-left: 5px;
+  justify-content: flex-end;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+.stickerBoxSent {
+  /* position: relative; */
+  background: #00bfa5;
+  border-radius: 10px;
+  padding: 3px 3px;
+  color: white;
+  /* display: inline-block; */
+  max-width: 37.5%;
+  max-height: 37.5%;
+  justify-content: flex-end;
+}
+
+.stickerMessageSent {
+  /* display: flex; */
+  position: relative;
+  justify-content: flex-end;
+  /* padding: 0 5%; */
+  margin-top: 3px;
+  flex-direction: column;
+  /* justify-content: center; */
+  transform: translateX(55%);
+}
+
+.repliedMessage {
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.timestamp {
+  font-size: 11px;
+  float: right;
+}
+
+.stickerTimestamp {
+  background: #13ca22;
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  max-width: 10%;
+  float: right;
+  transform: translateX(250%);
+}
+
+.stickerTimestampSent {
+  background: #00bfa5;
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  max-width: 10%;
+  float: right;
+  transform: translateX(250%);
+}
+.senderRepliedTo {
+  font-size: 15px;
+  background-color: #e3e3e3;
+  height: fit-content;
+  padding: 10px;
+  padding-left: 3px !important;
+  border-radius: 5px;
+}
+.senderMessage {
+  font-size: 15px;
+  padding-top: 2px;
+  margin-left: 2px;
+}
+.downloadDiv {
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--background-color);
+}
+.downloadIcon {
+  margin-top: 8px;
+  width: 17px;
+  height: 17px;
+}
+.stickerTimeStamp {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  color: black;
+  display: flex;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: #000;
+  width: 11%;
+  border-radius: 3px;
+  justify-content: center;
+}
+.repliedName {
+  color: var(--background-color);
+  margin: 3px 0px;
+}
+.stickerReply {
+  margin-top: 50px;
+  cursor: pointer;
+}
+.repliedText {
+  font-size: 15px;
+}
+.flex {
+  display: flex;
+}
