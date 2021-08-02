@@ -10,7 +10,7 @@
   height: 40px;
   border: none;
   padding: 10px;
-  width: 255px;
+  width: 250px;
   padding-right: 45px;
   font-size: 15px;
   background: #e1e5e3;
@@ -37,6 +37,10 @@ input:focus,
 textarea:focus,
 select:focus {
   outline: none;
+}
+
+.inputEmoji {
+  margin-left: 5px;
 }
 
 .emojiPickerDiv {

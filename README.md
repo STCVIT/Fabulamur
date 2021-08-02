@@ -33,18 +33,20 @@
 
 Setting up the project
 
-- Clone this project onto your computer.
-- Run the command `npm install` to install node modules
-- Then run the command `npm run build` to make a production version of it
+- Make your way onto <<link to the build folder on google drive>>
+- Download the folder onto your computer
+- Go to your file location and extract it
 
 Adding the extension to chrome
 
-- Navigate to chrome://extensions on chrome browser.
-- Switch on the Developer mode on the top right corner.
-- Select **load unpacked**.
-- Go to the folder where you have stored the project and select the folder named **build**
+- Navigate to chrome://extensions on chrome browser
+- Switch on the Developer mode on the top right corner
+- Select **load unpacked**
+- Select the folder named "Fabulamur" that you extracted
 - Now you have your extensioin added onto your chrome
-- When you want to use the extension you can click on the chrome chat extension in the top right of chrome to bring the chat popup.
+- When you want to use the extension you can click on the chrome chat extension in the top right of chrome to bring the chat popup
+
+Note: If you are running the extension for the first time please refresh the page you want to use it on before running the extension
 
 ## Contributors
 
