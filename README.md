@@ -33,7 +33,7 @@
 
 Setting up the project
 
-- Make your way onto <<link to the build folder on google drive>>
+- Make your way onto <a>https://drive.google.com/drive/folders/1isDQI1vJqv-u6zG3AJhi4J_llew8R-hZ?usp=sharing<a>
 - Download the folder onto your computer
 - Go to your file location and extract it
 

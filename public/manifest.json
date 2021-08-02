@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Chrome Chat Extention",
+  "name": "Fabulamur",
   "description": "A chat extention that allows you to chat with anyone on the same URL as you",
   "version": "1.0.0",
   "homepage_url": "https://github.com/Shriram-Sivanandam/chrome_chat-extension",
   "browser_action": {
     "default_icon": "favicon.ico",
-    "default_title": "Chrome Chat Extension"
+    "default_title": "Fabulamur"
   },
   "background": {
     "scripts": ["./jquery.js", "./background.js"]

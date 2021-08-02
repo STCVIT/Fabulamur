@@ -3,7 +3,6 @@
   /* background: url("../../icons/chatbg.png"); */
   background: var(--background-color);
   overflow-x: hidden;
-  overflow: auto;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
