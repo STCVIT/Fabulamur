@@ -26,6 +26,7 @@
 - Changing themes and colors according to your own preferences.
 - Hosting public or private rooms.
 - Interactive and attractive UI Design.
+- Can be used to share images, stickers, files during meetings as these features are not provided on platforms like Google Meet.
 
 <br>
 
