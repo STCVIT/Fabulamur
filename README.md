@@ -33,7 +33,7 @@
 
 Setting up the project
 
-- Make your way onto <a>https://drive.google.com/drive/folders/1cCr2x5I-68DYe7Nb1Mq9OpxD9HskkIFu?usp=sharing<a>
+- Make your way onto <a>https://drive.google.com/drive/folders/1f2f6ZcTBpN2yiqNIHzD9NMO6jZvGgUFX?usp=sharing<a>
 - Download the folder onto your computer
 - Go to your file location and extract it
 
