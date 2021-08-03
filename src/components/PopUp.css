@@ -9,8 +9,6 @@
 #modal {
   width: 350px;
   min-width: 271px;
-  border: 1px solid black;
-  border-right: 350px solid black;
 }
 
 .modalCompanyName {
