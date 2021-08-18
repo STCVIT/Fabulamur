@@ -4,17 +4,17 @@ chrome.browserAction.onClicked.addListener(function (tab) {
 
 chrome.browserAction.setIcon({ path: "./favicon.ico" });
 
-function callLocalhost(info, tab) {
-  chrome.tabs.update(info.tab, {
-    url: `http://localhost:3000/?url=${info.pageUrl}`,
-  });
-  chrome.tabs.sendMessage(tabs[0].id, {
-    url: `http://localhost:3000/?url=${info.pageUrl}`,
-  });
-}
+// function callLocalhost(info, tab) {
+//   chrome.tabs.update(info.tab, {
+//     url: `http://localhost:3000/?url=${info.pageUrl}`,
+//   });
+//   chrome.tabs.sendMessage(tabs[0].id, {
+//     url: `http://localhost:3000/?url=${info.pageUrl}`,
+//   });
+// }
 
-var child1 = chrome.contextMenus.create({
-  title: "Chat here",
-  onclick: callLocalhost,
-  contexts: ["all"],
-});
+// var child1 = chrome.contextMenus.create({
+//   title: "Chat here",
+//   onclick: callLocalhost,
+//   contexts: ["all"],
+// });

@@ -25,11 +25,6 @@
     ],
     "run_at": "document_end"
   }],
-  "permissions": [
-    "activeTab",
-    "tabs",
-    "contextMenus"
-  ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "web_accessible_resources": [
     "index.html",
